@@ -1391,7 +1391,7 @@ void player_update(int mmul)
 		if (cam_rx > 0x4000) cam_rx = 0x4000;
 	}
 
-	if ((joy_pressed & PAD_L2) != 0 || (has_mouse && (joy_pressed & (PAD_MOUSE_L << 16)) != 0)) {
+	if ((joy_pressed & PAD_R2) != 0 || (has_mouse && (joy_pressed & (PAD_MOUSE_L << 16)) != 0)) {
 		int32_t sel_cx = -1;
 		int32_t sel_cy = -1;
 		int32_t sel_cz = -1;
@@ -1443,7 +1443,7 @@ void player_update(int mmul)
 		}
 	}
 
-	if ((joy_pressed & PAD_R2) != 0 || (has_mouse && (joy_pressed & (PAD_MOUSE_R << 16)) != 0)) {
+	if ((joy_pressed & PAD_L2) != 0 || (has_mouse && (joy_pressed & (PAD_MOUSE_R << 16)) != 0)) {
 		int32_t sel_cx = -1;
 		int32_t sel_cy = -1;
 		int32_t sel_cz = -1;

@@ -1,6 +1,7 @@
 ## How to make isolicence.dat :
 To create isolicence.dat, you will need to copy the first 16 sectors (2352 byte each) of a disk or ps1 bin file obtained and dumped legally.
-dd if=[YourFile].bin of=isolicence.bin bs=2352 count=16
+
+`dd if=[YourFile].bin of=isolicence.bin bs=2352 count=16`
 
 Thanks to ChenThread, asiekierka and iamgreaser for the original project.
 

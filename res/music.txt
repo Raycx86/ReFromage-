@@ -1,7 +1,4 @@
 1 xacd obj/calm1.mus 1 0
 1 xacd obj/calm2.mus 1 1
 1 xacd obj/calm3.mus 1 2
-1 xacd obj/08Minecraft.mus 1 3
-1 xacd obj/01Key.mus 1 4
-1 xacd obj/02Door.mus 1 5
 1 null
